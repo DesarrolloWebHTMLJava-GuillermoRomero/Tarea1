@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    line-height: 1.4;
+}
+header{
+    min-height: calc(8% - 0.4rem); /*Aqui tenemos estilos para el header*/
+}
+
+/*Aqui tenemos estilos para las listas, es decir nuestro menu horizontal*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(active){
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+/*Aqui finaliza el menu horizontal*/
+
+img { /* Aqui tenemos estilos para nuestra etiqueta img, de la imagen procesada*/
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    display: block;
+}
+.pie {/* Aqui tenemos estilos para nuestra clase pie que la definimos en nuestro HTML*/
+    padding: 0;
+    background-color: #333;
+    margin: 1000px;
+    margin: auto;
+}
+p{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+
+}
